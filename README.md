@@ -1,3 +1,7 @@
+# Interactive Rating Component
+
+### [Live Site URL](https://dombrga.github.io/interactive-rating-component/)
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -22,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/dombrga/interactive-rating-component)
+- Live Site URL: [Github Pages](https://dombrga.github.io/interactive-rating-component/)
 
 ## My process
 
