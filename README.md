@@ -1,4 +1,4 @@
-# Interactive Rating Component
+# Interactive Rating Component using React
 
 ### [Live Site URL](https://dombrga.github.io/interactive-rating-component/)
 
