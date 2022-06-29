@@ -13,6 +13,7 @@ function App() {
         {!isSubmitted ? 
         <HowDidWeDo
           setIsSubmitted={setIsSubmitted}
+          rate={rate}
           setRate={setRate}
         /> : 
         <ThankYou

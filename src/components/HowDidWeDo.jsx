@@ -2,7 +2,7 @@ import { useState } from 'react'
 import star from '@/assets/icon-star.svg'
 
 
-function HowDidWeDo({ setIsSubmitted, setRate }) {
+function HowDidWeDo({ setIsSubmitted, rate, setRate }) {
   const [ratings, setRatings] = useState([
     {rating: 1, name: 'one', checked: false},
     {rating: 2, name: 'two', checked: false},
@@ -19,7 +19,7 @@ function HowDidWeDo({ setIsSubmitted, setRate }) {
     setRate(rating.rating)
   }
   function handleSubmit() {
-    setIsSubmitted(true)
+    return rate ? setIsSubmitted(true) : null
   }
 
   // jsx templates
@@ -44,7 +44,7 @@ function HowDidWeDo({ setIsSubmitted, setRate }) {
       <div className='ratings'>
         {ratingsElem}
       </div>
-      <button onClick={handleSubmit}>Submit</button>
+      <button onClick={handleSubmit} disabled={rate===null}>Submit</button>
     </div>
   )
 }
